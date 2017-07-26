@@ -32,7 +32,8 @@
 
 - (void)setFontLabel:(UILabel *)fontLabel{
     fontLabel.font = [UIFont fontWithName:@"woziku-bsdsm-CN4262" size:26];
-    fontLabel.text = @"测试字体";
+    fontLabel.text = @"测试字体\n\n这是汉字中文\nABCDEFGHIJK\nabcdefghijk\n1234567890";
+    fontLabel.numberOfLines = 0;
 }
 
 
