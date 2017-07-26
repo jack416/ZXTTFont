@@ -1,0 +1,322 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2CDF16201F283D4E00FD4462 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CDF161F1F283D4E00FD4462 /* main.m */; };
+		2CDF16231F283D4E00FD4462 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CDF16221F283D4E00FD4462 /* AppDelegate.m */; };
+		2CDF16261F283D4E00FD4462 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CDF16251F283D4E00FD4462 /* ViewController.m */; };
+		2CDF16291F283D4E00FD4462 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CDF16271F283D4E00FD4462 /* Main.storyboard */; };
+		2CDF162B1F283D4E00FD4462 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CDF162A1F283D4E00FD4462 /* Assets.xcassets */; };
+		2CDF162E1F283D4E00FD4462 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CDF162C1F283D4E00FD4462 /* LaunchScreen.storyboard */; };
+		2CDF16361F283E6E00FD4462 /* Wzk.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2CDF16351F283E6E00FD4462 /* Wzk.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2CDF161B1F283D4E00FD4462 /* ZXTTFontDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZXTTFontDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CDF161F1F283D4E00FD4462 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2CDF16211F283D4E00FD4462 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2CDF16221F283D4E00FD4462 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2CDF16241F283D4E00FD4462 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2CDF16251F283D4E00FD4462 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2CDF16281F283D4E00FD4462 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2CDF162A1F283D4E00FD4462 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2CDF162D1F283D4E00FD4462 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2CDF162F1F283D4E00FD4462 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CDF16351F283E6E00FD4462 /* Wzk.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Wzk.ttf; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2CDF16181F283D4E00FD4462 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2CDF16121F283D4E00FD4462 = {
+			isa = PBXGroup;
+			children = (
+				2CDF161D1F283D4E00FD4462 /* ZXTTFontDemo */,
+				2CDF161C1F283D4E00FD4462 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2CDF161C1F283D4E00FD4462 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2CDF161B1F283D4E00FD4462 /* ZXTTFontDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2CDF161D1F283D4E00FD4462 /* ZXTTFontDemo */ = {
+			isa = PBXGroup;
+			children = (
+				2CDF16211F283D4E00FD4462 /* AppDelegate.h */,
+				2CDF16221F283D4E00FD4462 /* AppDelegate.m */,
+				2CDF16241F283D4E00FD4462 /* ViewController.h */,
+				2CDF16251F283D4E00FD4462 /* ViewController.m */,
+				2CDF16271F283D4E00FD4462 /* Main.storyboard */,
+				2CDF162A1F283D4E00FD4462 /* Assets.xcassets */,
+				2CDF162C1F283D4E00FD4462 /* LaunchScreen.storyboard */,
+				2CDF162F1F283D4E00FD4462 /* Info.plist */,
+				2CDF161E1F283D4E00FD4462 /* Supporting Files */,
+			);
+			path = ZXTTFontDemo;
+			sourceTree = "<group>";
+		};
+		2CDF161E1F283D4E00FD4462 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2CDF16351F283E6E00FD4462 /* Wzk.ttf */,
+				2CDF161F1F283D4E00FD4462 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2CDF161A1F283D4E00FD4462 /* ZXTTFontDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CDF16321F283D4E00FD4462 /* Build configuration list for PBXNativeTarget "ZXTTFontDemo" */;
+			buildPhases = (
+				2CDF16171F283D4E00FD4462 /* Sources */,
+				2CDF16181F283D4E00FD4462 /* Frameworks */,
+				2CDF16191F283D4E00FD4462 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZXTTFontDemo;
+			productName = ZXTTFontDemo;
+			productReference = 2CDF161B1F283D4E00FD4462 /* ZXTTFontDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2CDF16131F283D4E00FD4462 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = stronger;
+				TargetAttributes = {
+					2CDF161A1F283D4E00FD4462 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 2CDF16161F283D4E00FD4462 /* Build configuration list for PBXProject "ZXTTFontDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2CDF16121F283D4E00FD4462;
+			productRefGroup = 2CDF161C1F283D4E00FD4462 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2CDF161A1F283D4E00FD4462 /* ZXTTFontDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2CDF16191F283D4E00FD4462 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CDF162E1F283D4E00FD4462 /* LaunchScreen.storyboard in Resources */,
+				2CDF162B1F283D4E00FD4462 /* Assets.xcassets in Resources */,
+				2CDF16291F283D4E00FD4462 /* Main.storyboard in Resources */,
+				2CDF16361F283E6E00FD4462 /* Wzk.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2CDF16171F283D4E00FD4462 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CDF16261F283D4E00FD4462 /* ViewController.m in Sources */,
+				2CDF16231F283D4E00FD4462 /* AppDelegate.m in Sources */,
+				2CDF16201F283D4E00FD4462 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2CDF16271F283D4E00FD4462 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2CDF16281F283D4E00FD4462 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2CDF162C1F283D4E00FD4462 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2CDF162D1F283D4E00FD4462 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2CDF16301F283D4E00FD4462 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2CDF16311F283D4E00FD4462 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2CDF16331F283D4E00FD4462 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZXTTFontDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = RichieChou.ZXTTFontDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2CDF16341F283D4E00FD4462 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZXTTFontDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = RichieChou.ZXTTFontDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2CDF16161F283D4E00FD4462 /* Build configuration list for PBXProject "ZXTTFontDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CDF16301F283D4E00FD4462 /* Debug */,
+				2CDF16311F283D4E00FD4462 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2CDF16321F283D4E00FD4462 /* Build configuration list for PBXNativeTarget "ZXTTFontDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CDF16331F283D4E00FD4462 /* Debug */,
+				2CDF16341F283D4E00FD4462 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2CDF16131F283D4E00FD4462 /* Project object */;
+}
